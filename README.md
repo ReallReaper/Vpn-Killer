@@ -1,4 +1,4 @@
-### Descripción del Código - Stop VPN Service
+## Descripción del Código - Stop VPN Service
 
 ---
 
@@ -38,5 +38,5 @@ This code is designed to search for and terminate any running instances of a spe
    - Configures the process instance to not use the user interface (`UseShellExecute = false`) and redirect standard output (`RedirectStandardOutput = true`).
    - Starts the process and waits for it to complete execution using `WaitForExit()`.
 
-# Note:
+## Note:
 This code can be used with other VPN services by replacing "nombre_del_servicio" with the appropriate service name.
